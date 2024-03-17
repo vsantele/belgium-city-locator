@@ -1,0 +1,32 @@
+{
+  "name": "belgium-city-locatorr",
+  "version": "1.0.0",
+  "description": "Fastify server with TypeScript for GeoJSON lookup",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [
+    "fastify",
+    "typescript",
+    "geojson",
+    "turf.js"
+  ],
+  "author": "Victor Santelé",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@turf/boolean-point-in-polygon": "7.0.0-alpha.114",
+    "@turf/helpers": "7.0.0-alpha.114",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "geojson": "^0.5.0",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.14",
+    "@types/node": "^20.11.28",
+    "typescript": "^5.4.2"
+  }
+}
